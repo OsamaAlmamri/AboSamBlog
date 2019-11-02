@@ -1,0 +1,485 @@
+@import url(//fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    url('../fonts/DroidKufi-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    url('../fonts/DroidKufi-Bold.ttf') format('truetype');
+}
+body{
+font-family: "Droid Arabic Kufi",Calibri,sans-serif;
+    font-size:  medium;
+    font-weight: normal;
+    background-color: #EEE;
+}
+@media (max-width:767px){
+    .sam-bg {
+        margin-top: -20px;
+        background-image: url('../images/s8-1.jpg');
+        background-position: top center;
+        background-size: cover;
+        min-height: 150px;
+    }
+    .ip-bg {
+        background-image: url('../images/iphone-7-red.jpg');
+        background-position: center center;
+        background-size: cover;
+        min-height: 150px;
+    }
+    .s-im-1 {
+        min-height: 150px;
+    }
+}
+@media (min-width:767px) {
+    .sam-bg {
+        margin-top: -20px;
+        background-image: url('../images/s8-1.jpg');
+        background-position: top center;
+        background-size: cover;
+        min-height: 250px;
+    }
+    .ip-bg {
+        background-image: url('../images/iphone-7-red.jpg');
+        background-position: center center;
+        background-size: cover;
+
+        min-height: 250px;
+    }
+    .s-im-1 {
+        min-height: 150px;
+    }
+
+}
+@media (min-width:992px) {
+    .sam-bg {
+        margin-top: -20px;
+        background-image: url('../images/s8-1.jpg');
+        background-position: top center;
+        background-size: cover;
+        min-height: 250px;
+    }
+    .ip-bg {
+        background-image: url('../images/iphone-7-red.jpg');
+        background-position: center center;
+        background-size: cover;
+        max-height: 500px;
+        min-height: 300px;
+    }
+    .s-im-1 {
+        min-height: 350px;
+    }
+}
+@media (min-width:1200px) {
+    .sam-bg {
+        margin-top: -20px;
+        background-image: url('../images/s8-1.jpg');
+        background-position: top center;
+        background-size: cover;
+        min-height: 371px;
+    }
+    .ip-bg {
+        background-image: url('../images/iphone-7-red.jpg');
+        background-position: center center;
+        background-size: cover;
+        min-height: 550px;
+    }
+    .s-im-1 {
+        background-image:url('../images/s8-2.jpg');
+        background-position:center center;
+        background-size:cover;
+        min-height:650px;
+    }
+}
+.fb-profile img.fb-image-lg {
+    z-index: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fb-image-profile {
+    margin: -100px 100px 0px 50px;
+    z-index: 9;
+    width: 20%;
+}
+
+@media (max-width:768px) {
+
+    .fb-profile-text > h1 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .fb-image-profile {
+        margin: -45px 10px 0px 25px;
+        z-index: 9;
+        width: 20%;
+    }
+}
+.t-home {
+    color: #fff;
+    font-weight: lighter;
+}
+.my-tabs{
+    width: 100%;
+    display: inline-flex;
+    list-style: none;
+    margin-left: 12.5px;
+}
+.my-tabs > li{
+    width: 25%;
+    text-align: center;
+    margin-left: 40px;
+    background-color:#FFFFFF;
+
+}
+.my-tabs > li:hover{
+
+    background-color: #2e6da4;
+}
+
+.my-tabs > li > button{
+    width: 100%;
+    height: 100%;
+    font-size:18px;
+    padding: 5px;
+    color: #2e6da4;
+    background-color: #FFFFFF;
+    border: 0 solid transparent;
+}
+.my-tabs > li > button:hover{
+    color: #FFFFFF;
+    background-color: #2e6da4;
+}
+.my-btn{
+    background-color: #2e6da4;
+    color: #FFFFFF;
+}
+@media (max-width: 768px) {
+    .my-tabs{
+        display: inline-block;
+    }
+    .my-tabs > li{
+        width: 100%;
+    }
+}
+.content-wrapper{
+    margin-top:80px;
+}
+@media (max-width:768px){
+.content-wrapper{
+    margin-top: 60px;
+}
+}
+.row-col-content{
+    background-color: #dddddd;
+}
+.my-nav {
+    display: block;
+    padding-left: 0px;
+    margin-bottom: 0;
+    list-style: none;
+}
+.my-nav > li {
+    position: relative;
+    display: block;
+}
+.my-nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.my-nav > li > a:hover,
+.my-nav > li > a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+.my-nav > li.disabled > a {
+    color: #777;
+}
+.my-nav > li.disabled > a:hover,
+.my-nav > li.disabled > a:focus {
+    color: #777;
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: transparent;
+}
+.my-nav .open > a,
+.my-nav .open > a:hover,
+.my-nav .open > a:focus {
+    background-color: #eee;
+    border-color: #337ab7;
+}
+.my-nav .nav-divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.my-nav > li > a > img {
+    max-width: none;
+}
+.update-btn{
+    float: none;
+    display: inline-block;
+    font-size: small;
+    background-color:#2e6da4;
+    border-color:#204d74;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.update-btn:hover{
+    color: #FFFFFF;
+    background-color: #204d74;
+}
+.update-btn:focus{
+    outline-offset: 0px;
+    background-color: #2e6da4;
+    color: #FFFFFF;
+}
+.update-btn:focus:after{
+    background-color: #204d74;
+    color: #FFFFFF;
+}
+.qun-input{
+    width: 60px;
+    height: 35px;
+    border: 1px solid transparent;
+    border-color: #ddd;
+    border-radius: 5px;
+}
+.qun-input:focus{
+    border-color: #204d74;
+    -webkit-box-shadow: inset 0 0 1px #204d74, 0 0 8px #204d74;
+    box-shadow: inset 0 0 1px #204d74, 0 0 8px #204d74;
+}
+.navbar-inverse {
+    background-color:#2e6da4;
+    border-color:#204d74;
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #dddddd;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-text {
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:  #FFFFFF;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #dddddd;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #204d74;
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #204d74;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #204d74;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #101010;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #dddddd;
+    background-color: #204d74;
+}
+.badge {
+    display: inline;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0;
+    font-family:"Arial Narrow";
+    font-style: normal;
+    color: #204d74;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+.dis{
+    display:inline-block;
+    margin:10px;
+    float: right;
+}
+.dis li a {
+    color: #204d74;
+}
+.facebook {
+    color: #204d74;
+}
+.facebook:hover {
+    color: #337ab7;
+}
+
+.twitter {
+    color: #204d74;
+}
+.twitter:hover {
+    color: #337ab7;
+}
+.insta {
+    color: #204d74;
+}
+.insta:hover {
+    color: #B2085D;
+}
+.youtub {
+    color: #204d74;
+}
+.youtub:hover{
+    color:red;
+}
+.hhh{
+    display: none;
+}
+.scroll-up{
+    position: fixed;
+    top:550px;
+    cursor: pointer;
+    right: 40px;
+    background-color: #204d74;
+    color: #FFFFFF;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid transparent;
+    border-color: #2c4762;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.scroll-up:hover{
+    background-color: #204d74;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.product-div{
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+    border-color: #dddddd;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.brand-div{
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+    border-color: #dddddd;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    transition-duration: 0.5s;
+}
+.brand-div:hover{
+    transform: scale(1.1,1.1);
+}
+.htc-img-1{
+    border-radius: 10px;
+    width: 100%;
+    height: 490px;
+    background-image: url(../htc/11.png);
+    transition-duration: 0.5s;
+    transition-property: background-image;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.htc-img-1:hover{
+    background-image: url(../htc/1.png);
+}
+.htc-img-2{
+    border-radius: 10px;
+    width: 100%;
+    height: 490px;
+    background-image: url(../htc/22.png);
+    transition-duration: 0.5s;
+    transition-property: background-image;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.htc-img-2:hover{
+    background-image: url(../htc/2.png);
+}
+.htc-img-3{
+    border-radius: 10px;
+    width: 100%;
+    height: 490px;
+    background-image: url(../htc/66.png);
+    transition-duration: 0.5s;
+    transition-property: background-image;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.htc-img-3:hover{
+    background-image: url(../htc/6.png);
+}
+.htc-img-4{
+    border-radius: 10px;
+    width: 100%;
+    height: 490px;
+    background-image: url(../htc/77.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    transition-property: background-image;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.htc-img-4:hover{
+    background-image: url(../htc/7.png);
+}
+/* Start Section Loading */
+
+.loading-overlay
+{
+    background:#FFF;
+    color:#FFF;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:99999
+}
+
+.spinner {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: 150px auto;
+}
